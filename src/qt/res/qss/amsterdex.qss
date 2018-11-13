@@ -1,0 +1,1380 @@
+QToolTip
+{
+    border: 1px solid #76797C;
+    background-color: #202b35;
+    color: white;
+    padding: 5px;
+    opacity: 200;
+	font-family: Ubuntu;
+}
+
+QWidget
+{
+    color: #202b35;
+    background-color: #fff;
+    
+    background-clip: border;
+    border-image: none;
+    border: 0px transparent black;
+    outline: 0;
+	font-family: Ubuntu;
+}
+
+QString 
+{
+	font-family: Ubuntu;
+}
+
+QWidget:item:hover
+{
+    background-color: #83bdb1;
+    color: #ffffff;
+}
+
+QWidget:item:selected
+{
+    background-color: #83bdb1;
+}
+
+QCheckBox
+{
+    spacing: 5px;
+    outline: none;
+    color: #202b35;
+    margin-bottom: 2px;
+	border: 1px solid #5A7B92;
+	font-family: Ubuntu;
+}
+
+QCheckBox:disabled
+{
+    color: #76797C;
+	border: 1px solid #5A7B92;
+}
+
+QCheckBox::indicator,
+QGroupBox::indicator
+{
+    width: 18px;
+    height: 18px;
+}
+QGroupBox::indicator
+{
+    margin-left: 2px;
+}
+
+QCheckBox::indicator:unchecked
+{
+    image: url(:/qss_icons/res/icons/checkbox/checkbox_unchecked.png);
+}
+
+QCheckBox::indicator:unchecked:hover,
+QCheckBox::indicator:unchecked:focus,
+QCheckBox::indicator:unchecked:pressed,
+QGroupBox::indicator:unchecked:hover,
+QGroupBox::indicator:unchecked:focus,
+QGroupBox::indicator:unchecked:pressed
+{
+  border: none;
+    image: url(:/qss_icons/res/icons/checkbox/checkbox_unchecked_focus.png);
+}
+
+QCheckBox::indicator:checked
+{
+    image: url(:/qss_icons/res/icons/checkbox/checkbox_checked.png);
+}
+
+QCheckBox::indicator:checked:hover,
+QCheckBox::indicator:checked:focus,
+QCheckBox::indicator:checked:pressed,
+QGroupBox::indicator:checked:hover,
+QGroupBox::indicator:checked:focus,
+QGroupBox::indicator:checked:pressed
+{
+  border: none;
+    image: url(:/qss_icons/res/icons/checkbox/checkbox_checked_focus.png);
+}
+
+
+QCheckBox::indicator:indeterminate
+{
+    image: url(:/qss_icons/res/icons/checkbox/checkbox_indeterminate.png);
+}
+
+QCheckBox::indicator:indeterminate:focus,
+QCheckBox::indicator:indeterminate:hover,
+QCheckBox::indicator:indeterminate:pressed
+{
+    image: url(:/qss_icons/res/icons/checkbox/checkbox_indeterminate_focus.png);
+}
+
+QCheckBox::indicator:checked:disabled,
+QGroupBox::indicator:checked:disabled
+{
+    image: url(:/qss_icons/res/icons/checkbox/checkbox_checked_disabled.png);
+}
+
+QCheckBox::indicator:unchecked:disabled,
+QGroupBox::indicator:unchecked:disabled
+{
+    image: url(:/qss_icons/res/icons/checkbox/checkbox_unchecked_disabled.png);
+}
+
+QRadioButton
+{
+    spacing: 5px;
+    outline: none;
+    color: #202b35;
+    margin-bottom: 2px;
+}
+
+QRadioButton:disabled
+{
+    color: #76797C;
+}
+QRadioButton::indicator
+{
+    width: 21px;
+    height: 21px;
+}
+
+QRadioButton::indicator:unchecked
+{
+    image: url(:/qss_icons/res/icons/checkbox/radio_unchecked.png);
+}
+
+
+QRadioButton::indicator:unchecked:hover,
+QRadioButton::indicator:unchecked:focus,
+QRadioButton::indicator:unchecked:pressed
+{
+    border: none;
+    outline: none;
+    image: url(:/qss_icons/res/icons/checkbox/radio_unchecked_focus.png);
+}
+
+QRadioButton::indicator:checked
+{
+    border: none;
+    outline: none;
+    image: url(:/qss_icons/res/icons/checkbox/radio_checked.png);
+}
+
+QRadioButton::indicator:checked:hover,
+QRadioButton::indicator:checked:focus,
+QRadioButton::indicator:checked:pressed
+{
+    border: none;
+    outline: none;
+    image: url(:/qss_icons/res/icons/checkbox/radio_checked_focus.png);
+}
+
+QRadioButton::indicator:checked:disabled
+{
+    outline: none;
+    image: url(:/qss_icons/res/icons/checkbox/radio_checked_disabled.png);
+}
+
+QRadioButton::indicator:unchecked:disabled
+{
+    image: url(:/qss_icons/res/icons/checkbox/radio_unchecked_disabled.png);
+}
+
+
+QMenuBar
+{
+	
+	border-bottom: 2px solid #83bdb1;
+    background-color: #202b35;
+    color: #ffffff;
+	font-family: Ubuntu;
+}
+
+QMenuBar::item
+{
+    background: transparent;
+}
+
+QMenuBar::item:selected
+{
+    background: transparent;
+    border: 1px solid #76797C;
+}
+
+QMenuBar::item:pressed
+{
+    border: 1px solid #76797C;
+    background-color: #83bdb1;
+    color: #ffffff;
+    margin-bottom:-1px;
+    padding-bottom:1px;
+}
+
+QMenu
+{
+    border: 1px solid #76797C;
+    color: #ffffff;
+   background-color: #202b35;
+   font-family: Ubuntu;
+}
+
+QMenu::icon
+{
+    margin: 5px;
+	margin-top:3px;
+}
+
+QMenu::item
+{
+    margin-top:3px;
+	margin-right:4px;
+	margin-bottom:4px;
+    padding: 5px 30px 5px 30px;
+    margin-left: 5px;
+    border: 1px solid transparent; /* reserve space for selection border */
+}
+
+QMenu::item:selected
+{
+    border: 1px solid #fff;
+	background-color: #83bdb1;
+    color: #fff
+}
+
+QMenu::separator {
+    height: 2px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+QMenu::indicator {
+    width: 18px;
+    height: 18px;
+}
+
+/* non-exclusive indicator = check box style indicator
+   (see QActionGroup::setExclusive) */
+QMenu::indicator:non-exclusive:unchecked {
+    image: url(:/qss_icons/res/icons/checkbox/checkbox_unchecked.png);
+}
+
+QMenu::indicator:non-exclusive:unchecked:selected {
+    image: url(:/qss_icons/res/icons/checkbox/checkbox_unchecked_disabled.png);
+}
+
+QMenu::indicator:non-exclusive:checked {
+    image: url(:/qss_icons/res/icons/checkbox/checkbox_checked.png);
+}
+
+QMenu::indicator:non-exclusive:checked:selected {
+    image: url(:/qss_icons/res/icons/checkbox/checkbox_checked_disabled.png);
+}
+
+/* exclusive indicator = radio button style indicator (see QActionGroup::setExclusive) */
+QMenu::indicator:exclusive:unchecked {
+    image: url(:/qss_icons/res/icons/checkbox/radio_unchecked.png);
+}
+
+QMenu::indicator:exclusive:unchecked:selected {
+    image: url(:/qss_icons/res/icons/checkbox/radio_unchecked_disabled.png);
+}
+
+QMenu::indicator:exclusive:checked {
+    image: url(:/qss_icons/res/icons/checkbox/radio_checked.png);
+}
+
+QMenu::indicator:exclusive:checked:selected {
+    image: url(:/qss_icons/res/icons/checkbox/radio_checked_disabled.png);
+}
+
+QMenu::right-arrow {
+    margin: 5px;
+    image: url(:/qss_icons/res/icons/checkbox/right_arrow.png)
+}
+
+
+QWidget:disabled
+{
+    color: #fff;
+    background-color: #83bdb1;
+	font-family: Ubuntu;
+}
+
+QAbstractItemView
+{
+    alternate-background-color: #202b35;
+    color: #202b35;
+    border: 1px solid 202b35;
+	font-family: Ubuntu;
+}
+
+QWidget:focus, QMenuBar:focus
+{
+    border: 1px solid #83bdb1;
+}
+
+QTabWidget:focus, QCheckBox:focus, QRadioButton:focus, QSlider:focus
+{
+    border: none;
+}
+
+QLineEdit
+{
+    background-color: #fff;
+    padding: 5px;
+    border-style: solid;
+    border: 1px solid #76797C;
+    color: #202b35;
+	font-family: Ubuntu;
+	font-size: 13px;
+}
+
+QGroupBox {
+    border:1px solid #76797C;
+    margin-top: 20px;
+	font-family: Ubuntu;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+QAbstractScrollArea
+{
+    border: 1px solid #76797C;
+    background-color: transparent;
+}
+
+QScrollBar:horizontal
+{
+    height: 15px;
+    margin: 3px 15px 3px 15px;
+    border: 1px transparent #2A2929;
+    background-color: #2A2929;
+}
+
+QScrollBar::handle:horizontal
+{
+    background-color: #605F5F;
+    min-width: 5px;
+}
+
+QScrollBar::add-line:horizontal
+{
+    margin: 0px 3px 0px 3px;
+    border-image: url(:/qss_icons/res/icons/checkbox/right_arrow_disabled.png);
+    width: 10px;
+    height: 10px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:horizontal
+{
+    margin: 0px 3px 0px 3px;
+    border-image: url(:/qss_icons/res/icons/checkbox/left_arrow_disabled.png);
+    height: 10px;
+    width: 10px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-line:horizontal:hover,QScrollBar::add-line:horizontal:on
+{
+    border-image: url(:/qss_icons/res/icons/checkbox/right_arrow.png);
+    height: 10px;
+    width: 10px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+
+
+QScrollBar::sub-line:horizontal:hover, QScrollBar::sub-line:horizontal:on
+{
+    border-image: url(:/qss_icons/res/icons/checkbox/left_arrow.png);
+    height: 10px;
+    width: 10px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::up-arrow:horizontal, QScrollBar::down-arrow:horizontal
+{
+    background: none;
+}
+
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal
+{
+    background: none;
+}
+
+QScrollBar:vertical
+{
+    background-color: #2A2929;
+    width: 15px;
+    margin: 15px 3px 15px 3px;
+    border: 1px transparent #2A2929;
+}
+
+QScrollBar::handle:vertical
+{
+    background-color: #605F5F;
+    min-height: 5px;
+}
+
+QScrollBar::sub-line:vertical
+{
+    margin: 3px 0px 3px 0px;
+    border-image: url(:/qss_icons/res/icons/checkbox/up_arrow_disabled.png);
+    height: 10px;
+    width: 10px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-line:vertical
+{
+    margin: 3px 0px 3px 0px;
+    border-image: url(:/qss_icons/res/icons/checkbox/down_arrow_disabled.png);
+    height: 10px;
+    width: 10px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical:hover,QScrollBar::sub-line:vertical:on
+{
+
+    border-image: url(:/qss_icons/res/icons/checkbox/up_arrow.png);
+    height: 10px;
+    width: 10px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+
+QScrollBar::add-line:vertical:hover, QScrollBar::add-line:vertical:on
+{
+    border-image: url(:/qss_icons/res/icons/checkbox/down_arrow.png);
+    height: 10px;
+    width: 10px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical
+{
+    background: none;
+}
+
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
+{
+    background: none;
+}
+
+QTextEdit
+{
+    background-color: #fff;
+    color: #202b35;
+    border: 1px solid #76797C;
+	font-family: Ubuntu;
+	font-size: 13px;
+}
+
+QPlainTextEdit
+{
+    background-color: #fff;;
+    color: #202b35;
+    border: 1px solid #76797C;
+	font-family: Ubuntu;
+	font-size: 13px;
+}
+
+QHeaderView::section
+{
+    background-color: #76797C;
+    color: #ffffff;
+    padding: 5px;
+    border: 1px solid #76797C;
+	font-family: Ubuntu;
+}
+
+QSizeGrip {
+    image: url(:/qss_icons/res/icons/checkbox/sizegrip.png);
+    width: 12px;
+    height: 12px;
+}
+
+
+QMainWindow::separator
+{
+    background-color: #202b35;
+    color: white;
+    padding-left: 4px;
+    spacing: 2px;
+    border: 1px dashed #fff;
+	font-family: Ubuntu;
+}
+
+QMainWindow::separator:hover
+{
+
+    background-color: #787876;
+    color: white;
+    padding-left: 4px;
+    border: 1px solid #fff;
+    spacing: 2px;
+	font-family: Ubuntu;
+}
+
+
+QMenu::separator
+{
+    height: 1px;
+    background-color: #fff;
+    color: white;
+    padding-left: 4px;
+    margin-left: 10px;
+    margin-right: 5px;
+	font-family: Ubuntu;
+}
+
+
+QFrame
+{
+    border: none;
+	font-family: Ubuntu;
+}
+
+QFrame[frameShape="0"]
+{
+    border: 1px transparent #76797C;
+	font-family: Ubuntu;
+}
+
+QStackedWidget
+{
+    border: 1px transparent black;
+	font-family: Ubuntu;
+	
+}
+
+QToolBar {
+    border-right: 2px solid #83bdb1;
+    background: 1px solid #202b35;
+    font-weight: bold;
+	font-family: Ubuntu;
+}
+
+QToolBar::handle:horizontal {
+    image: url(:/qss_icons/res/icons/checkbox/Hmovetoolbar.png);
+}
+QToolBar::handle:vertical {
+    image: url(:/qss_icons/res/icons/checkbox/Vmovetoolbar.png);
+}
+QToolBar::separator:horizontal {
+    image: url(:/qss_icons/res/icons/checkbox/Hsepartoolbar.png);
+}
+QToolBar::separator:vertical {
+    image: url(:/qss_icons/res/icons/checkbox/Vsepartoolbar.png);
+}
+QToolButton#qt_toolbar_ext_button {
+    background: #58595a;
+	font-family: Ubuntu;
+}
+
+QPushButton
+{
+    color: #ffffff;
+    background-color: #83bdb1;
+    padding: 5px;
+    outline: none;
+	font-family: Ubuntu;
+}
+
+QPushButton:disabled
+{
+    background-color: #83bdb1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #454545;
+	font-family: Ubuntu;
+}
+
+QPushButton:focus {
+    background-color: #344452;
+    color: white;
+	font-family: Ubuntu;
+}
+
+QPushButton:pressed
+{
+    background-color: #344452;
+    padding-top: -15px;
+    padding-bottom: -17px;
+	font-family: Ubuntu;
+}
+
+QComboBox
+{
+    
+    border-style: solid;
+    border: 1px solid #76797C;
+    padding: 5px;
+    min-width: 75px;
+	font-family: Ubuntu;
+}
+
+QPushButton:checked{
+    background-color: #76797C;
+    border-color: #6A6969;
+	font-family: Ubuntu;
+}
+
+QPushButton:hover
+{
+    color: #fafafa;
+	font-family: Ubuntu;
+}
+
+QComboBox:hover,QAbstractSpinBox:hover,QLineEdit:hover,QTextEdit:hover,QPlainTextEdit:hover,QAbstractView:hover,QTreeView:hover
+{
+    border: 1px solid #83bdb1;
+    color: #83bdb1;
+	font-family: Ubuntu;
+}
+
+QComboBox:on
+{
+    padding-top: 3px;
+    padding-left: 4px;
+    selection-background-color: #4a4a4a;
+	font-family: Ubuntu;
+}
+
+QComboBox QAbstractItemView
+{
+    background-color: #fff;
+    border: 1px solid #76797C;
+    
+	font-family: Ubuntu;
+}
+
+QComboBox::drop-down
+{
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+
+    border-left-width: 0px;
+    border-left-color: darkgray;
+    border-left-style: solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+	font-family: Ubuntu;
+}
+
+QComboBox::down-arrow
+{
+    image: url(:/qss_icons/res/icons/checkbox/down_arrow_disabled.png);
+}
+
+QComboBox::down-arrow:on, QComboBox::down-arrow:hover,
+QComboBox::down-arrow:focus
+{
+    image: url(:/qss_icons/res/icons/checkbox/down_arrow.png);
+}
+
+QAbstractSpinBox {
+    padding: 5px;
+    border: 1px solid #76797C;
+    background-color: #fff;
+    color: #202b35;
+    
+    min-width: 75px;
+	font-family: Ubuntu;
+}
+
+QAbstractSpinBox:up-button
+{
+    background-color: transparent;
+    subcontrol-origin: border;
+    subcontrol-position: center right;
+	font-family: Ubuntu;
+}
+
+QAbstractSpinBox:down-button
+{
+    background-color: transparent;
+    subcontrol-origin: border;
+    subcontrol-position: center left;
+	font-family: Ubuntu;
+}
+
+QAbstractSpinBox::up-arrow,QAbstractSpinBox::up-arrow:disabled,QAbstractSpinBox::up-arrow:off {
+    image: url(:/qss_icons/res/icons/checkbox/up_arrow_disabled.png);
+    width: 10px;
+    height: 10px;
+}
+QAbstractSpinBox::up-arrow:hover
+{
+    image: url(:/qss_icons/res/icons/checkbox/up_arrow.png);
+}
+
+
+QAbstractSpinBox::down-arrow,QAbstractSpinBox::down-arrow:disabled,QAbstractSpinBox::down-arrow:off
+{
+    image: url(:/qss_icons/res/icons/checkbox/down_arrow_disabled.png);
+    width: 10px;
+    height: 10px;
+}
+QAbstractSpinBox::down-arrow:hover
+{
+    image: url(:/qss_icons/res/icons/checkbox/down_arrow.png);
+}
+
+
+QLabel
+{
+    border: 0px solid black;
+	font-family: Ubuntu;
+	font-size: 12px;
+}
+
+QLabel:disabled 
+{
+       background-color: transparent;
+}
+
+QLabel#labelStake, QLabel#labelUnconfirmed, QLabel#labelImmature, QLabel#labelBalance, QLabel#labelNumTransactions, QLabel#heightBox, QLabel#localBox, QLabel#diffBox2, QLabel#diffBox, QLabel#pawrateBox, QLabel#maxBox, QLabel#connectionBox, QLabel#volumeBox, QLabel#minBox, QLabel#pow_rewardBox, QLabel#pos_rewardBox, QLabel#switchBox
+{
+    color: #83bdb1;
+	font-size: 11px;
+}
+
+QLabel#labelTotal
+{
+   border: 1px solid #202b35;
+    color: #83bdb1;
+	font-size: 28px;
+}
+
+QTabWidget{
+    border: 0px transparent black;
+	font-family: Ubuntu;
+}
+
+QTabWidget::pane {
+    border: 1px solid #76797C;
+    padding: 5px;
+    margin: 0px;
+}
+
+QTabBar
+{
+    qproperty-drawBase: 0;
+    left: 5px; /* move to the right by 5px */
+	font-family: Ubuntu;
+}
+
+QTabBar:focus
+{
+    border: 0px transparent black;
+}
+
+QTabBar::close-button  {
+    image: url(:/qss_icons/res/icons/checkbox/close.png);
+    background: transparent;
+}
+
+QTabBar::close-button:hover
+{
+    image: url(:/qss_icons/res/icons/checkbox/close-hover.png);
+    background: transparent;
+}
+
+QTabBar::close-button:pressed {
+    image: url(:/qss_icons/res/icons/checkbox/close-pressed.png);
+    background: transparent;
+}
+
+/* TOP TABS */
+QTabBar::tab:top {
+    color: #ffffff;
+    border: 1px solid #76797C;
+    border-bottom: 1px transparent black;
+    background-color: #202b35;
+    padding: 5px;
+    min-width: 50px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+QTabBar::tab:top:!selected
+{
+    color: #ffffff;
+    background-color: #54575B;
+    border: 1px solid #76797C;
+    border-bottom: 1px transparent black;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;    
+}
+
+QTabBar::tab:top:!selected:hover {
+    background-color: #83bdb1;
+}
+
+/* BOTTOM TABS */
+QTabBar::tab:bottom {
+    color: #ffffff;
+    border: 1px solid #76797C;
+    border-top: 1px transparent black;
+    background-color: #202b35;
+    padding: 5px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    min-width: 50px;
+}
+
+QTabBar::tab:bottom:!selected
+{
+    color: #ffffff;
+    background-color: #54575B;
+    border: 1px solid #76797C;
+    border-top: 1px transparent black;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+QTabBar::tab:bottom:!selected:hover {
+    background-color: #83bdb1;
+}
+
+/* LEFT TABS */
+QTabBar::tab:left {
+    color: #ffffff;
+    border: 1px solid #76797C;
+    border-left: 1px transparent black;
+    background-color: #202b35;
+    padding: 5px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    min-height: 50px;
+	font-family: Ubuntu;
+}
+
+QTabBar::tab:left:!selected
+{
+    color: #ffffff;
+    background-color: #54575B;
+    border: 1px solid #76797C;
+    border-left: 1px transparent black;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+	font-family: Ubuntu;
+}
+
+QTabBar::tab:left:!selected:hover {
+    background-color: #83bdb1;
+	font-family: Ubuntu;
+}
+
+
+/* RIGHT TABS */
+QTabBar::tab:right {
+    color: #ffffff;
+    border: 1px solid #76797C;
+    border-right: 1px transparent black;
+    background-color: #202b35;
+    padding: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    min-height: 50px;
+	font-family: Ubuntu;
+}
+
+QTabBar::tab:right:!selected
+{
+    color: #ffffff;
+    background-color: #54575B;
+    border: 1px solid #76797C;
+    border-right: 1px transparent black;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+	font-family: Ubuntu;
+}
+
+QTabBar::tab:right:!selected:hover {
+    background-color: #83bdb1;
+	font-family: Ubuntu;
+	
+}
+
+QTabBar QToolButton::right-arrow:enabled {
+     image: url(:/qss_icons/res/icons/checkbox/right_arrow.png);
+ }
+
+ QTabBar QToolButton::left-arrow:enabled {
+     image: url(:/qss_icons/res/icons/checkbox/left_arrow.png);
+ }
+
+QTabBar QToolButton::right-arrow:disabled {
+     image: url(:/qss_icons/res/icons/checkbox/right_arrow_disabled.png);
+ }
+
+ QTabBar QToolButton::left-arrow:disabled {
+     image: url(:/qss_icons/res/icons/checkbox/left_arrow_disabled.png);
+ }
+
+
+QDockWidget {
+    background: #202b35;
+    border: 1px solid #403F3F;
+    titlebar-close-icon: url(:/qss_icons/res/icons/checkbox/close.png);
+    titlebar-normal-icon: url(:/qss_icons/res/icons/checkbox/undock.png);
+	font-family: Ubuntu;
+}
+
+QDockWidget::close-button, QDockWidget::float-button {
+    border: 1px solid transparent;
+    
+    background: transparent;
+	font-family: Ubuntu;
+}
+
+QDockWidget::close-button:hover, QDockWidget::float-button:hover {
+    background: rgba(255, 255, 255, 10);
+	font-family: Ubuntu;
+}
+
+QDockWidget::close-button:pressed, QDockWidget::float-button:pressed {
+    padding: 1px -1px -1px 1px;
+    background: rgba(255, 255, 255, 10);
+	font-family: Ubuntu;
+}
+
+QTreeView, QListView
+{
+    border: 1px solid #76797C;
+    background-color: #fff;
+}
+
+QTreeView:branch:selected, QTreeView:branch:hover
+{
+    background: url(:/qss_icons/res/icons/checkbox/transparent.png);
+}
+
+QTreeView::branch:has-siblings:!adjoins-item {
+    border-image: url(:/qss_icons/res/icons/checkbox/transparent.png);
+}
+
+QTreeView::branch:has-siblings:adjoins-item {
+    border-image: url(:/qss_icons/res/icons/checkbox/transparent.png);
+}
+
+QTreeView::branch:!has-children:!has-siblings:adjoins-item {
+    border-image: url(:/qss_icons/res/icons/checkbox/transparent.png);
+}
+
+QTreeView::branch:has-children:!has-siblings:closed,
+QTreeView::branch:closed:has-children:has-siblings {
+    image: url(:/qss_icons/res/icons/checkbox/branch_closed.png);
+}
+
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings  {
+    image: url(:/qss_icons/res/icons/checkbox/branch_open.png);
+}
+
+QTreeView::branch:has-children:!has-siblings:closed:hover,
+QTreeView::branch:closed:has-children:has-siblings:hover {
+    image: url(:/qss_icons/res/icons/checkbox/branch_closed-on.png);
+    }
+
+QTreeView::branch:open:has-children:!has-siblings:hover,
+QTreeView::branch:open:has-children:has-siblings:hover  {
+    image: url(:/qss_icons/res/icons/checkbox/branch_open-on.png);
+    }
+
+QListView::item:!selected:hover, QTreeView::item:!selected:hover  {
+    background: #83bdb1;
+    outline: 0;
+    color: #ffffff
+}
+
+QListView::item:selected:hover, QTreeView::item:selected:hover  {
+    background: #83bdb1;
+    color: #ffffff;
+}
+
+QSlider::groove:horizontal {
+    border: 1px solid #565a5e;
+    height: 4px;
+    background: #565a5e;
+    margin: 0px;
+    
+}
+
+QSlider::handle:horizontal {
+    background: #fff;
+    border: 1px solid #565a5e;
+    width: 16px;
+    height: 16px;
+    margin: -8px 0;
+	font-family: Ubuntu;
+}
+
+QSlider::groove:vertical {
+    border: 1px solid #565a5e;
+    width: 4px;
+    background: #565a5e;
+    margin: 0px;
+	font-family: Ubuntu;
+}
+
+QSlider::handle:vertical {
+    background: #fff;
+    border: 1px solid #565a5e;
+    width: 16px;
+    height: 16px;
+    margin: 0 -8px;
+	font-family: Ubuntu;
+}
+
+QToolButton {
+    background-color: transparent;
+    border: 1px transparent #76797C;
+    
+    margin: 3px;
+    padding: 5px;
+	width:120px; 
+	height:24px;
+	color: #fff;
+	font-family: Ubuntu;
+	font-size: 12px;
+}
+
+QToolButton[popupMode="1"] { /* only for MenuButtonPopup */
+ padding-right: 20px; /* make way for the popup button */
+ border: 1px #76797C;
+}
+
+QToolButton[popupMode="2"] { /* only for InstantPopup */
+ padding-right: 10px; /* make way for the popup button */
+ border: 1px #76797C;
+}
+
+
+QToolButton:hover, QToolButton::menu-button:hover {
+    background-color: transparent;
+    border: 1px solid #83bdb1;
+    padding: 5px;
+}
+
+QToolButton:checked, QToolButton:pressed,
+        QToolButton::menu-button:pressed {
+    background-color: #83bdb1;
+    border: 1px solid #83bdb1;
+    padding: 5px;
+}
+
+/* the subcontrol below is used only in the InstantPopup or DelayedPopup mode */
+QToolButton::menu-indicator {
+    image: url(:/qss_icons/res/icons/checkbox/down_arrow.png);
+    top: -7px; left: -2px; /* shift it a bit */
+}
+
+/* the subcontrols below are used only in the MenuButtonPopup mode */
+QToolButton::menu-button {
+    border: 1px transparent #76797C;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    /* 16px width + 4px for border = 20px allocated above */
+    width: 16px;
+    outline: none;
+}
+
+QToolButton::menu-arrow {
+    image: url(:/qss_icons/res/icons/checkbox/down_arrow.png);
+}
+
+QToolButton::menu-arrow:open {
+    border: 1px solid #76797C;
+	font-family: Ubuntu;
+}
+
+QPushButton::menu-indicator  {
+    subcontrol-origin: padding;
+    subcontrol-position: bottom right;
+    left: 8px;
+	font-family: Ubuntu;
+}
+
+QTableView::item,QListView::item,QTreeView::item
+{
+	background:#ffffff;
+	padding-top:10px;
+	padding-bottom:10px;
+	color: #202b35;
+	font-family: Ubuntu;
+	
+}
+
+QTableView
+{
+    border: 1px solid #76797C;
+    gridline-color: #202b35;
+    background-color: #fff;
+	font-family: Ubuntu;
+	
+}
+
+
+QTableView, QHeaderView
+{
+	font-family: Ubuntu;
+}
+
+QTableView::item:pressed, QListView::item:pressed, QTreeView::item:pressed  {
+    background: #83bdb1;
+    color: #fff;
+	font-family: Ubuntu;
+}
+
+QTableView::item:selected:active, QTreeView::item:selected:active, QListView::item:selected:active  {
+    background: #83bdb1;
+    color: #202b35;
+	font-family: Ubuntu;
+}
+
+
+QHeaderView
+{
+    background-color: #202b35;
+    border: 1px transparent;
+    margin: 0px;
+    padding: 0px;
+	font-family: Ubuntu;
+
+}
+
+QHeaderView::section  {
+    background-color: #202b35;
+    color: #ffffff;
+    padding: 5px;
+    border: 1px solid #76797C;
+    text-align: center;
+	font-family: Ubuntu;
+}
+
+QHeaderView::section::vertical::first, QHeaderView::section::vertical::only-one
+{
+    border-top: 1px solid #76797C;
+}
+
+QHeaderView::section::vertical
+{
+    border-top: transparent;
+}
+
+QHeaderView::section::horizontal::first, QHeaderView::section::horizontal::only-one
+{
+    border-left: 1px solid #76797C;
+}
+
+QHeaderView::section::horizontal
+{
+    border-left: transparent;
+}
+
+
+QHeaderView::section:checked
+ {
+    color: white;
+    background-color: #202b35;
+	font-family: Ubuntu;
+ }
+
+ /* style the sort indicator */
+QHeaderView::down-arrow {
+    image: url(:/qss_icons/res/icons/checkbox/down_arrow.png);
+}
+
+QHeaderView::up-arrow {
+    image: url(:/qss_icons/res/icons/checkbox/up_arrow.png);
+}
+
+
+QTableCornerButton::section {
+    background-color: #202b35;
+    border: 1px transparent #76797C;
+	font-family: Ubuntu;
+}
+
+QToolBox  {
+    padding: 5px;
+    border: 1px transparent black;
+	font-family: Ubuntu;
+}
+
+QToolBox::tab {
+    color: #ffffff;
+    background-color: #202b35;
+    border: 1px solid #76797C;
+    border-bottom: 1px transparent #202b35;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+	font-family: Ubuntu;
+	
+}
+
+QToolBox::tab:selected { /* italicize selected tabs */
+    font: italic;
+    background-color: #202b35;
+    border-color: #83bdb1;
+	font-family: Ubuntu;
+ }
+
+QStatusBar
+{
+    border-top: 2px solid #83bdb1;
+	background-color: #202b35;
+	font-family: Ubuntu;
+
+}
+
+QStatusBar QFrame
+{
+   
+	background-color: #202b35;
+	font-family: Ubuntu;
+
+}
+
+QStatusBar::item {
+    border: 0px transparent dark;
+	background-color: #202b35;
+ }
+
+
+QFrame[height="3"], QFrame[width="3"] {
+    background-color: #76797C;
+}
+
+
+QSplitter::handle {
+    border: 1px dashed #76797C;
+	font-family: Ubuntu;
+}
+
+QSplitter::handle:hover {
+    background-color: #787876;
+    border: 1px solid #76797C;
+}
+
+QSplitter::handle:horizontal {
+    width: 1px;
+}
+
+QSplitter::handle:vertical {
+    height: 1px;
+}
+
+QProgressBar {
+    border: 1px solid #fff;
+    text-align: center;
+	font-family: Ubuntu;
+}
+
+QProgressBar::chunk {
+    background-color: #83bdb1;
+}
+
+QDateEdit
+{
+    
+    border-style: solid;
+    border: 1px solid #3375A3;
+    
+    padding: 1px;
+    min-width: 75px;
+	font-family: Ubuntu;
+}
+
+QDateEdit:on
+{
+    padding-top: 3px;
+    padding-left: 4px;
+    selection-background-color: #4a4a4a;
+}
+
+QDateEdit QAbstractItemView
+{
+    background-color: #232629;
+    
+    border: 1px solid #3375A3;
+    
+	font-family: Ubuntu;
+}
+
+QDateEdit::drop-down
+{
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+    border-left-width: 0px;
+    border-left-color: darkgray;
+    border-left-style: solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+	font-family: Ubuntu;
+
+}
+
+QDateEdit::down-arrow
+{
+    image: url(:/qss_icons/res/icons/checkbox/down_arrow_disabled.png);
+}
+
+QDateEdit::down-arrow:on, QDateEdit::down-arrow:hover,
+QDateEdit::down-arrow:focus
+{
+    image: url(:/qss_icons/res/icons/checkbox/down_arrow.png);
+}
+
+QTreeWidgetItem 
+{
+	color: #8a3232;
+    background-color: #ffffff;
+    selection-color: #8a3232;
+    background-clip: border;
+    border-image: none;
+    border: 0px transparent black;
+    outline: 0;
+	font-family: Ubuntu;
+
+}
+
+QTreeWidget
+{
+	color: #8a3232;
+    background-color: #ffffff;
+    selection-color: #8a3232;
+    background-clip: border;
+    border-image: none;
+    border: 0px transparent black;
+    outline: 0;
+	font-family: Ubuntu;
+
+}
