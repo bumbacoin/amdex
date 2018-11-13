@@ -25,9 +25,9 @@
 <tr><td>Block Reward</td><td>0.2 AMDEX</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
 <tr><td>Minimum Stake Age</td><td>4 Hours</td></tr>
-<tr><td>Maximum Stake Age</td><td>90 Days</td></tr>
+<tr><td>Maximum Stake Age</td><td>120 Days</td></tr>
 <tr><td>Start Supply</td><td>349 500 AMDEX</td></tr>
-<tr><td>Max Coin Supply</td><td>Infinite (Ongoing PoS)</td></tr>
+<tr><td>Max Coin Supply</td><td>Infinite (ongoing PoS)</td></tr>
 </table>
 
 
