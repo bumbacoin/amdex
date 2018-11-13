@@ -44,7 +44,7 @@
 - Network Info
 - Block Explorer
 
-[![IMAGE](https://amsterdex.com/github/wallet.png)]()
+<a href="https://github.com/amsterdex/amdex/releases"><img src="https://amsterdex.com/github/wallet.png" title="Amsterdex Wallet" alt="Amsterdex Wallet"></a>
 
 ---
 
