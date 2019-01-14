@@ -542,8 +542,7 @@ bool AppInit2()
         }
         nWalletBackups = GetArg("-createwalletbackups", 10);
         nWalletBackups = std::max(0, std::min(10, nWalletBackups));
-        if(nWalletBackups > 0)
-        {
+        if(nWalletBackups > 0 && (filesystem::exists(GetDataDir() / strWalletFileName)))        {
             if (filesystem::exists(backupDir))
             {
                 // Create backup of the wallet
